@@ -1,5 +1,5 @@
     AREA Qn4, CODE, READONLY
-    ENTRY
+ENTRY
 
     MOV R0, #11       
     CMP R0, #2        
