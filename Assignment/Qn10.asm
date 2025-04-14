@@ -10,6 +10,7 @@ ENTRY
     END
 
     AREA DATA_AREA, DATA, READWRITE
-    source      DCD 10, 20, 30, 40
-    destination DCD 0, 0, 0, 0
+source      DCD 10, 20, 30, 40
+destination DCD 0, 0, 0, 0
+    BX LR
     END
