@@ -1,8 +1,7 @@
     AREA Qn14, CODE, READONLY
-    ENTRY
+ENTRY
 
 square_function
-    MUL R0, R0, R0  ; 
-    BX  LR          ; 
-
+    MUL R0, R0, R0  
+    BX  LR          
     END
